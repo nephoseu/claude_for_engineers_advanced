@@ -1,0 +1,21 @@
+2026-08-14T08:12:03.441Z INFO GET /tasks 200 4ms
+2026-08-14T08:12:04.902Z INFO GET /tasks/active-count?owner=ana 200 2ms
+2026-08-14T08:13:11.220Z INFO POST /tasks 201 6ms
+2026-08-14T08:14:02.554Z INFO GET /tasks/active-count?owner=marko 200 1ms
+2026-08-14T09:02:18.771Z WARN POST /tasks rejected - missing title or owner in payload
+2026-08-14T09:15:44.108Z INFO GET /tasks 200 3ms
+2026-08-14T10:41:09.933Z INFO GET /tasks/active-count?owner=ana 200 2ms
+2026-08-15T09:00:12.001Z INFO GET /tasks 200 5ms
+2026-08-15T09:31:07.442Z INFO GET /tasks/active-count?owner=ana 200 2ms
+2026-08-15T09:31:09.115Z INFO GET /tasks/active-count?owner=ana 200 1ms
+2026-08-15T11:04:55.207Z WARN POST /tasks rejected - missing title or owner in payload
+2026-08-19T14:02:31.884Z INFO GET /tasks 200 4ms
+2026-08-19T14:03:02.119Z INFO GET /tasks/active-count?owner=ana 200 2ms
+2026-08-19T14:03:44.207Z INFO support ticket #4417 - "my active count says 2 but I have 4 open tasks"
+2026-08-19T14:04:01.332Z INFO GET /tasks?owner=ana 200 3ms
+2026-08-20T08:00:00.010Z INFO GET /tasks/active-count?owner=ana 200 2ms
+2026-08-20T08:00:00.011Z INFO row snapshot for owner=ana: 4 rows, completed values seen: 'false','true',0,1
+2026-08-21T13:01:51.511Z INFO GET /tasks?owner=ana 200 5ms
+2026-08-21T13:01:51.519Z INFO GET /tasks/active-count?owner=ana 200 1ms
+2026-08-21T13:06:56.254Z INFO GET /tasks?owner=ana 200 3ms
+2026-08-21T13:06:56.261Z INFO GET /tasks/active-count?owner=ana 200 1ms

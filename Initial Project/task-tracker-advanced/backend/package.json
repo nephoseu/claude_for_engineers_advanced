@@ -1,0 +1,16 @@
+{
+  "name": "task-tracker-backend",
+  "version": "2.0.0",
+  "description": "Task Tracker API - Advanced day starter project (extends the Intermediate-course final project with a real database, logging, and a cross-cutting bug for diagnosis)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node --test tests/*.js",
+    "db:seed": "node src/db/seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  }
+}

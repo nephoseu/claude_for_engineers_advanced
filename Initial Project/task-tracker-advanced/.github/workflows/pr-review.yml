@@ -1,0 +1,22 @@
+name: Automated PR Review
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install backend deps
+        working-directory: backend
+        run: npm install
+      - name: Run test suite
+        working-directory: backend
+        run: npm test
+      - name: Run PR review checks
+        run: node scripts/pr-review-check.js
