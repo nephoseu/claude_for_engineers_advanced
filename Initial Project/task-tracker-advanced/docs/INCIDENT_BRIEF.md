@@ -50,8 +50,8 @@ solved in one sitting:
 
 ## Where to look if you're stuck
 
-- The current lab's section in `docs/Lab-Guides.md`, or its counterpart in
-  `docs/Lab-Step-by-Step-Appendix.md` for a numbered walkthrough.
+- The current lab's guide in `docs/labs/`, or its `-steps` companion for a
+  numbered walkthrough.
 - `CLAUDE.md` at the repo root - project conventions and what's available.
 - `backend/src/db/migrations/` - read them in order; the second one explains
   the problem it introduced.

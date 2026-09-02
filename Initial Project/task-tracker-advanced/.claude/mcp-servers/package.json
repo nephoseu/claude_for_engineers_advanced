@@ -1,0 +1,11 @@
+{
+  "name": "task-tracker-mcp-servers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Two local, read-only MCP servers for the Advanced day: db-readonly and logs-readonly. Fully self-contained, no external endpoints required.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "better-sqlite3": "^11.3.0",
+    "zod": "^3.23.0"
+  }
+}

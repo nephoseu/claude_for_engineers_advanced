@@ -1,19 +1,13 @@
 {
-  "//": "Facilitator: replace these two placeholder entries with your actual pre-authorized MCP servers before the session - see .claude/mcp-servers.md for what each one needs to be scoped to. Participants should never need to author MCP config themselves today; they should only review the permissions already granted here.",
+  "//": "Both servers below are real, self-contained, local MCP servers, no external endpoints or credentials required. Source: .claude/mcp-servers/. Run 'npm install' inside .claude/mcp-servers/ once before the session (see docs/GETTING_STARTED.md). Participants should never need to author or edit this file themselves, they only review the permissions each server is scoped to (see .claude/mcp-servers.md).",
   "mcpServers": {
     "db-readonly": {
-      "command": "REPLACE_WITH_REAL_COMMAND",
-      "args": ["REPLACE_WITH_REAL_ARGS"],
-      "env": {
-        "DB_CONNECTION_STRING": "REPLACE_WITH_READ_ONLY_CONNECTION_STRING"
-      }
+      "command": "node",
+      "args": [".claude/mcp-servers/db-readonly/server.js"]
     },
     "logs-readonly": {
-      "command": "REPLACE_WITH_REAL_COMMAND",
-      "args": ["REPLACE_WITH_REAL_ARGS"],
-      "env": {
-        "LOG_SOURCE": "REPLACE_WITH_READ_ONLY_LOG_SOURCE"
-      }
+      "command": "node",
+      "args": [".claude/mcp-servers/logs-readonly/server.js"]
     }
   }
 }

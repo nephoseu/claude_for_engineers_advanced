@@ -15,7 +15,3 @@
 2026-08-19T14:04:01.332Z INFO GET /tasks?owner=ana 200 3ms
 2026-08-20T08:00:00.010Z INFO GET /tasks/active-count?owner=ana 200 2ms
 2026-08-20T08:00:00.011Z INFO row snapshot for owner=ana: 4 rows, completed values seen: 'false','true',0,1
-2026-08-21T13:01:51.511Z INFO GET /tasks?owner=ana 200 5ms
-2026-08-21T13:01:51.519Z INFO GET /tasks/active-count?owner=ana 200 1ms
-2026-08-21T13:06:56.254Z INFO GET /tasks?owner=ana 200 3ms
-2026-08-21T13:06:56.261Z INFO GET /tasks/active-count?owner=ana 200 1ms

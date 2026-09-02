@@ -10,20 +10,18 @@ Five modules, each with a short concept explanation followed by a lab —
 all building on one running scenario against the `task-tracker-advanced`
 repo. By the end of Module 5 you'll have a real pull request.
 
-| Module | Focus |
-|---|---|
-| 1 | MCP Servers & Permission Review |
-| 2 | Multi-Tool Diagnostic Workflow |
-| 3 | Safe Schema Changes |
-| 4 | Subagents, Skills & Hooks |
-| 5 | Pull Requests & Automated Review |
+| Module | Focus | Lab | Step-by-step |
+|---|---|---|---|
+| 1 | MCP Servers & Permission Review | `docs/labs/lab-1-mcp-permissions.md` | `docs/labs/lab-1-mcp-permissions-steps.md` |
+| 2 | Multi-Tool Diagnostic Workflow | `docs/labs/lab-2-diagnose-the-incident.md` | `docs/labs/lab-2-diagnose-the-incident-steps.md` |
+| 3 | Safe Schema Changes | `docs/labs/lab-3-migration-and-tests.md` | `docs/labs/lab-3-migration-and-tests-steps.md` |
+| 4 | Subagents, Skills & Hooks | `docs/labs/lab-4-subagents-skills-hooks.md` | `docs/labs/lab-4-subagents-skills-hooks-steps.md` |
+| 5 | Pull Requests & Automated Review | `docs/labs/lab-5-pr-and-automated-review.md` | `docs/labs/lab-5-pr-and-automated-review-steps.md` |
 
-All five labs are in **`docs/Lab-Guides.md`** — each with a short **Goal**
-and **What to do** section. That's usually all you need.
-
-Want more structure? **`docs/Lab-Step-by-Step-Appendix.md`** has an optional
-numbered walkthrough for every lab. Use it for the labs where you want more
-scaffolding, skip it for the rest — both are normal.
+Each lab is two documents: the main guide (a short **Goal** and **What to
+do** — usually all you need), and a separate step-by-step document if you
+want more structure. Use the step-by-step version for some labs and not
+others — both are normal.
 
 ## The scenario
 
@@ -70,7 +68,7 @@ and only for some users. Full context: `docs/INCIDENT_BRIEF.md`.
 
 ## If you're stuck
 
-1. The relevant lab's section in `docs/Lab-Step-by-Step-Appendix.md`.
+1. The current lab's step-by-step document in `docs/labs/`.
 2. `CLAUDE.md`.
 3. Ask the facilitator — for environment problems specifically, not for the
    diagnosis or approach itself.

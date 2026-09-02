@@ -1,46 +1,17 @@
-# Lab 1: Step-by-Step
+# Lab 1 — Step-by-Step
 
 **Companion to `lab-1-mcp-permissions.md`. Module 1: MCP Servers & Permission Review**
 
 ---
 
-## Quick Start
-
-I used npm version:  20.18.0.
-
-If you want to use that one, than install it.
-```
-   nvm install 20.18.0
-   nvm use 20.18.0
-```
-
-If you just want it running as fast as possible, from the project root:
-
-```bash
-# Terminal 1, backend
-cd backend
-npm install
-npm run db:seed
-npm run dev
-
-# Terminal 2, frontend
-cd frontend
-npm install
-npm run dev
-
-# Once, in any terminal, sets up both MCP servers for Module 1 / Lab 1
-cd .claude/mcp-servers
-npm install
-```
-
 This is optional. The main lab document states the goal and leaves the
-approach to you, use this only if you want more scaffolding, or if you're
+approach to you — use this only if you want more scaffolding, or if you're
 short on time and would rather follow a known-good sequence than explore.
 
 1. Open `.claude/mcp-servers.md`. For each server, write down: what can it
    read, and what is it explicitly forbidden from doing?
 2. Open `.mcp.json` and confirm the configuration matches what the README
-   describes, same read-only scope, nothing that looks like a write
+   describes — same read-only scope, nothing that looks like a write
    credential.
 3. Ask Claude Code to use the `db-readonly` MCP server to select the
    `id`, `owner`, `status`, and `completed` columns from every row in
